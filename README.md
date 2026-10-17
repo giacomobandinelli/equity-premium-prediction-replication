@@ -88,7 +88,7 @@ Significance: `*` p ≤ 0.10, `**` p ≤ 0.05, `***` p ≤ 0.01. A joint p-value
   - crdstd is the least stable: its out-of-sample R² falls from 4.14% to 1.96%. This matches GWZ's own warning that most of its performance comes from 2000–2002.
   - gpce strengthens, from 3.38% to 4.29%.
 
-Full tables for all 40 predictors are in `Output/Table_01_Replication.docx` and `Output/Table_02_SampleRobustness.docx`.
+Full results for all 40 predictors are in [`RESULTS.md`](RESULTS.md), and as Word tables in `Output/Table_01_Replication.docx` and `Output/Table_02_SampleRobustness.docx`.
 
 ## Comparison with the original paper
 
@@ -132,6 +132,7 @@ All results are written to `Output/`. The data files are not stored in this repo
 ```
 equity-premium-prediction-replication/
 ├── README.md
+├── RESULTS.md                # full results tables for all 40 predictors
 ├── LICENSE
 ├── Topic01_Replication.Rproj
 ├── Scripts/
